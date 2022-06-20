@@ -71,7 +71,7 @@ header {
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  width: 40%;
+  width: 60%;
 }
 
 .mockup {
@@ -282,6 +282,79 @@ footer ul li {
   margin-top: 100px;
 
 }
+
+@media only screen and (max-width: 600px){
+
+}
+
+@media only screen and (min-width: 780px){
+  .message{
+    height: 50vh;
+  }
+  .message h1{
+    font-size: 1.5rem;
+  }
+  .mockup img{
+    height: 50vh;
+  }
+  .message button{
+    font-size: 0.7rem;
+  }
+  .grow-together-two img{
+    width: fit-content;
+    height: 50vh;
+    padding: 50px;
+  }
+  .grow-together-one{
+    width: 50%;
+    margin: auto 50px;
+  }
+  .flowing-conv-one img{
+    width: 100%;
+    padding: 10px;
+  }
+  .flowing-conv-one{
+    margin: auto;
+  }
+  .flowing-conv-two{
+    margin: auto 50px;
+  }
+  .your-users-two img{
+    padding: 10px;
+  }
+  .your-users{
+    align-items: center;
+  }
+  .your-users-one{
+    margin: auto 10px;
+    padding: 10px;
+  }
+  footer {
+    display: flex;
+    gap: 10px;
+    background-color: hsl(192, 100%, 9%);
+    padding: 20px;
+    
+    margin-top: -140px;
+    padding-top: 150px;
+    z-index: -1;
+    position: relative;
+    color: #fff ;
+    font-family: "OpenSans", sans-serif;
+  }
+
+}
+
+@media only screen and (min-width: 992px){
+  .mockup img{
+    height: 50vh;
+  }
+
+}
+
+/* @media only screen and (min-width: 1200px){
+
+} */
 
 /* 
 @media screen and (max-width: 1650px) {
